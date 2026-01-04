@@ -1,2 +1,10 @@
-@import url(global.css);
-@import url(styles.css);
+header {
+    background-color: var(--background-tertiary-color);
+}
+
+
+.logo {
+    display: inline-block;
+    width: 68px;
+    height: 64px;
+}
