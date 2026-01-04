@@ -51,10 +51,30 @@
     margin: 16px 0 32px 0;
 }
 
+.button {
+    line-height: 64px;
+    background-color: var(--button-primary-color);
+    text-decoration: none;
+    color: var(--text-tertinary-color);
+    font-weight: var(--font-weight-title);
+    width:280px;
+    height: 64px;
+    border-radius: 8px;
+    font-style: Bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
 @media screen and (min-width:768px) {
     .section-title h2{
         font-size: 32px;
     }
+}
+
+@media screen and (min-width:1440px) {
+    .button:hover {
+    background-color: var(--button-seconday-color);
+}
 }
 
 @media screen and (min-width:1440px) {
