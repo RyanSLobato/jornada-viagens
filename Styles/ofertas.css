@@ -1,3 +1,10 @@
+.card-de-ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
 .card {
     background-color: var(--background-tertiary-color);
     width: 312px;
@@ -5,6 +12,26 @@
     border-radius: 16px;
     text-align: center;
 }
+
+.japao {
+    background: url(../img/Mobile/Offer-card/card-promo-mobile-japao.jpg) no-repeat;
+}
+
+.San-andreas {
+    background: url(../img/Mobile/Offer-card/Card-promo-mobile-san-andreas.jpg) no-repeat;
+    background-size: cover;
+}
+
+.Paraiba {
+    background: url(../img/Mobile/Offer-card/Card-promo-mobile-paraiba.jpg) no-repeat;
+    background-size: cover;
+}
+
+.Manaus {
+    background: url(../img/Mobile/Offer-card/Card-promo-mobile-manaus.jpg) no-repeat;
+    background-size: cover;
+}
+
 
 .card header p{
     display: block;
@@ -31,10 +58,18 @@
     font-style: Bold;
 }
 
+@media screen and (min-width:768px) {
+    .card-de-ofertas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+}
 
 @media screen and (min-width:1024px) {
     .card {
-        width: 588px;
+        width: 445px;
         height: 308px;
     }
 
@@ -44,5 +79,19 @@
 
     .card section span {
         font-size: 40px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .card-de-ofertas{
+        width: 1250px;
+        margin: 0 auto;
     }
 }
