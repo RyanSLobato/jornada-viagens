@@ -1,0 +1,44 @@
+.card {
+    background-color: var(--background-tertiary-color);
+    width: 312px;
+    height: 288px;
+    padding: 0 24px 24px 24px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card header p{
+    display: block;
+    font-size: 20px;
+    font-weight: var(--font-weight-text);
+    color: var(--text-quinary-color);
+    padding: 24px 0 8px 0;
+} 
+
+.card section {
+    font-weight: var(--font-weight-title);
+    color: var(--text-quinary-color);
+}
+
+.card section h3 {
+    font-size: 40px;
+    font-style: Bold;
+    margin-bottom: 24px;
+}
+
+.card section span {
+    font-size: 32px;
+    font-style: Bold;
+    margin-bottom: 24px;
+}
+.button {
+    background-color: var(--button-primary-color);
+    text-decoration: none;
+    color: var(--text-tertinary-color);
+    font-weight: var(--font-weight-title);
+    padding: 16px 74px;
+    border-radius: 8px;
+    font-style: Bold;
+    font-size: 20px;
+    padding: 20px;
+}
