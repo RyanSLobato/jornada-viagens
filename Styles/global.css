@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
 }
@@ -28,4 +29,35 @@
     --font-weight-text: 400;   
     --font-weight-menu: 500;
     --font-weight-title: 700;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-weight: var(--font-weight-title);
+    font-size: 28px;
+    font-style: Bold;
+    color: var(--text-secondary-color);
+}
+
+.section-title hr {
+    display: inline-block;
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-primary-color);
+    margin: 16px 0 32px 0;
+}
+
+@media screen and (min-width:768px) {
+    .section-title h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .section-title hr {
+        margin-bottom: 64px;
+    }
 }
