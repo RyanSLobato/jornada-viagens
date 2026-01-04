@@ -1,9 +1,8 @@
 header {
     background-color: var(--background-tertiary-color);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 38px 48px;
     position: relative;
 }
@@ -35,11 +34,33 @@ input[type="checkbox"]:checked ~ nav {
 .navegacao-menu__lista__list-links li {
     margin: 16px 0 16px 50px ;
     list-style: none;
-    
+    font-size: 24px;
 }
 
 .navegacao-menu__lista__list-links li a{
     color: var(--text-tertinary-color);
     font-weight: var(--font-weight-menu);
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .navegacao-menu {
+        margin: 0;
+    }
+
+    .navegacao-menu label{
+        display: none;
+    }
+
+    .navegacao-menu__lista {
+        display: block;
+    }
+
+    .navegacao-menu__lista__list-links {
+        display: flex;
+    }
+
+    .navegacao-menu__lista__list-links li {
+        padding: 0 10px;
+    }
 }
