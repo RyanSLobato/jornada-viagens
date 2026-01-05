@@ -38,7 +38,7 @@
 
 .section-title h2 {
     font-weight: var(--font-weight-title);
-    font-size: 28px;
+    font-size: 32px;
     font-style: Bold;
     color: var(--text-secondary-color);
 }
@@ -65,11 +65,6 @@
     display: inline-block;
 }
 
-@media screen and (min-width:768px) {
-    .section-title h2{
-        font-size: 32px;
-    }
-}
 
 @media screen and (min-width:1440px) {
     .button:hover {
