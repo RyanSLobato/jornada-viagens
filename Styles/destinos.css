@@ -1,0 +1,73 @@
+.titulo-destino {
+    margin-top: 88px;
+}
+
+.destinos-favoritos {
+    width: 312px;
+    margin: 0 auto;
+}
+
+.destino_titulo {
+    font-size: 28px;
+    font-style: bold;
+    font-weight: var(--font-weight-title);
+    margin: 24px 0 24px;
+    color: var(--text-secundary-color);
+}
+
+.destino_descricao {
+    font-size: 20px;
+    color: var(--text-secundary-color);
+    font-weight: var(--font-weight-text);
+    margin: 24px 0 24px;
+    line-height: 1.5;
+}
+
+.destino_imagem {
+    width: 312px;
+    height: 360px;
+}
+
+.destino_botao {
+    width: 312px;
+    margin-bottom:40px;
+}
+
+@media screen and (min-width: 768px) {
+    .destinos-favoritos {
+        width: 648px;
+    }
+
+    .destino_imagem {
+        width: 648px;
+        height: 452px;
+    }
+
+} 
+
+@media screen and (min-width: 1024px) {
+    .destinos-favoritos {
+        width: 900px;
+    }
+
+    .destino_imagem {
+        width: 850px;
+        height: 560px;
+    }
+
+} 
+
+
+@media screen and (min-width: 1440px) {
+    .destinos-favoritos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .destino_imagem {
+        width: 588px;
+        height: 452px;
+    }
+}
