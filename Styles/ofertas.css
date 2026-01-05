@@ -13,21 +13,21 @@
     text-align: center;
 }
 
-.japao {
+.card-japao {
     background: url(../img/Mobile/Offer-card/card-promo-mobile-japao.jpg) no-repeat;
 }
 
-.San-andreas {
+.card-san-andreas {
     background: url(../img/Mobile/Offer-card/Card-promo-mobile-san-andreas.jpg) no-repeat;
     background-size: cover;
 }
 
-.Paraiba {
+.card-paraiba {
     background: url(../img/Mobile/Offer-card/Card-promo-mobile-paraiba.jpg) no-repeat;
     background-size: cover;
 }
 
-.Manaus {
+.card-manaus {
     background: url(../img/Mobile/Offer-card/Card-promo-mobile-manaus.jpg) no-repeat;
     background-size: cover;
 }
