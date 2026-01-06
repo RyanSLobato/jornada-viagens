@@ -1,0 +1,93 @@
+.formas-de-pagamento {
+    width: 312px;
+    margin: 0 auto;
+}
+
+.info-condicoes{
+    margin-bottom: 24px;
+}
+
+.condicoes_titulo {
+    margin-bottom: 24px;
+}
+
+.conteudo-imagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    width: 100%;
+}
+
+
+
+.imagem-malas {
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Montagem\ japão\ 1.svg) no-repeat;
+}
+
+.imagem-passaporte {
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Montagem\ japão\ 2.svg) no-repeat;
+}
+
+.imagem-vista {
+    grid-column: span 2;
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Montagem\ japão\ 3.svg) no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .formas-de-pagamento {
+        width: 648px;
+    }
+
+    .imagem-malas {
+        background: url(../img/Tablet/Payment/Montagem\ japão\ 1.svg) no-repeat;
+    }
+
+    .imagem-passaporte {
+        background: url(../img/Tablet/Payment/Montagem\ japão\ 2.svg) no-repeat;
+    }
+
+    .imagem-vista {
+        background: url(../img/Tablet/Payment/Montagem\ japão\ 3.svg) no-repeat;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .formas-de-pagamento {
+        width: 1197px;
+    }
+
+    .divisao {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .condicoes_titulo {
+        width: 285px;
+    }
+
+    .conteudo-imagem {
+        width: 790px;
+    }
+
+    .condicoes_descricao {
+        width: 360px;
+    }
+
+    .imagem-malas {
+        background: url(../img/Desktop/Payments/Montagem\ japão\ 1.svg) no-repeat;
+    }
+
+    .imagem-passaporte {
+        background: url(../img/Desktop/Payments/Montagem\ japão\ 2.svg) no-repeat;
+    }
+
+    .imagem-vista {
+        background: url(../img/Desktop/Payments/Montagem\ japão\ 3.svg) no-repeat;
+    }
+
+}
