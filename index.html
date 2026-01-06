@@ -8,6 +8,7 @@
     <title>Jornada Viagens</title>
 </head>
 <body>
+
     <header class="cabecalho">
         <a class="logo" href="#" title="Voltar para a página inicial">
             <img class="logo__img-mobile"src="./assets/Logo/bussola-logo-jornada-viagens.svg" alt="Bússola do logo Jornada Viagens na cor branca">
@@ -27,10 +28,12 @@
             </nav>
         </div>
     </header>
+
     <main>
+       
         <section class="hero">
             <div class="hero-img"></div>
-            <h2>Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!</h2>
+            <h2 class="description-default">Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!</h2>
         </section>
         
         <section class="ofertas">
@@ -38,92 +41,147 @@
                 <h2>Ofertas da Semana</h2>
                 <hr>
             </div>
-        </section>
         
-        <div class="card-de-ofertas">
-            <article class="card card-japao">
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                </header>
-                <section>
-                    <h3>Japão</h3>
-                    <span>R$ 4000</span>
-                </section> 
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
+        
+            <div class="card-de-ofertas">
+                <article class="card card-japao">
+                    <header>
+                        <p class="description-default card_pacote">HOTEL+AÉREO</p>
+                    </header>
+                    <section>
+                        <h3>Japão</h3>
+                        <span>R$ 4000</span>
+                    </section> 
+                    <footer>
+                        <a href="#" class="button">Ver detalhes</a>
+                    </footer>
+                </article>
 
-            <article class="card card-san-andreas"> 
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                </header>
-                <section>
-                    <h3>San Andreas</h3>
-                    <span>R$ 3000</span>
-                </section>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
+                <article class="card card-san-andreas"> 
+                    <header>
+                        <p class="description-default card_pacote">HOTEL+AÉREO</p>
+                    </header>
+                    <section>
+                        <h3>San Andreas</h3>
+                        <span>R$ 3000</span>
+                    </section>
+                    <footer>
+                        <a href="#" class="button">Ver detalhes</a>
+                    </footer>
+                </article>
 
-            <article class="card card-paraiba"> 
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                </header>
-                <section>
-                    <h3>Paraíba</h3>
-                    <span>R$ 1200</span>
-                </section>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
+                <article class="card card-paraiba"> 
+                    <header>
+                        <p class="description-default card_pacote">HOTEL+AÉREO</p>
+                    </header>
+                    <section>
+                        <h3>Paraíba</h3>
+                        <span>R$ 1200</span>
+                    </section>
+                    <footer>
+                        <a href="#" class="button">Ver detalhes</a>
+                    </footer>
+                </article>
 
-            <article class="card card-manaus"> 
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                </header>
-                <section>
-                    <h3>Manaus</h3>
-                    <span>R$ 1600</span>
-                </section>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
-        </div>
+                <article class="card card-manaus"> 
+                    <header>
+                        <p class="description-default card_pacote">HOTEL+AÉREO</p>
+                    </header>
+                    <section>
+                        <h3>Manaus</h3>
+                        <span>R$ 1600</span>
+                    </section>
+                    <footer>
+                        <a href="#" class="button">Ver detalhes</a>
+                    </footer>
+                </article>
+            </div>
+        </section>
 
-        <section class="titulo-categorias">
+        <section class="sessao-categorias">
             <div class="section-title">
                 <h2>Busque por Categoria</h2>
                 <hr>
             </div>
+
+            <div class="categorias">
+                <a href="#" class="buscar">
+                        <img class="buscar_icone buscar_icone-nacional"src="/assets/icone-pacotes/icone-pacotes-nacionais.svg">
+                        <h3 class="title-default buscar_pacote">Pacotes Nacionais</h3>
+                </a>
+
+                <a href="#" class="buscar">
+                        <img class="buscar_icone" src="/assets/icone-pacotes/icone-pacotes-internacionais.svg">
+                        <h3 class="title-default">Pacotes Internacionais</h3>
+                </a>
+
+                <a href="#" class="buscar">
+                        <img class="buscar_icone buscar_icone-transfer" src="/assets/icone-pacotes/icone-transfer.svg">
+                        <h3 class="title-default">Transfer</h3>
+                </a>
+
+                <a href="#" class="buscar">
+                        <img class="buscar_icone"src="/assets/icone-pacotes/icone-seguro-viagem.svg">
+                        <h3 class="title-default">Seguro Viagem</h3>
+                </a>
+            </div>
+        </section>  
+
+        <section class="sessao-destino">
+            <div class="titulo-destino section-title">
+                <h2>Destinos Populares</h2>
+                <hr>
+            </div>
+
+            <div class="destinos-favoritos">
+                <article class="destino">
+                    <header>
+                        <img class="destino_imagem" src="/img/Mobile/Offer-card/card-promo-mobile-japao.jpg">
+                        <h3 class="title-default destino_titulo">Tokyo</h3>
+                    </header>
+                    <section>
+                        <p class="description-default destino_descricao">Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.</p>
+                    </section>
+                    <footer>
+                        <a class="button destino_botao" href="#">Ver detalhes</a>
+                    </footer>
+                </article>
+
+                <article class="destino">
+                    <header>
+                        <img class="destino_imagem" src="/img/Mobile/Offer-card/card-promo-osaka.jpg">
+                        <h3 class="title-default destino_titulo">Osaka</h3>
+                    </header>
+                    <section>
+                        <p class="description-default destino_descricao">Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.</p>
+                    </section>
+                    <footer>
+                        <a class="button destino_botao" href="#">Ver detalhes</a>
+                    </footer>
+                </article>          
+            </div>
+        </section>
+        
+        <section class="formas-de-pagamento">
+            <div class="titulo-condicoes section-title">
+                <h2>Condições de Pagamento</h2>
+                <hr>
+            </div>
+            <div class="divisao">
+                <div class="info-condicoes">
+                    <h3 class="title-default condicoes_titulo">
+                        Parcelamento em até 12x!
+                    </h3>
+                    <p class="description-default condicoes_descricao">Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10% de desconto! </p>
+                </div >
+                <div class="conteudo-imagem">
+                    <div class="formas-imagens imagem-malas"></div>
+                    <div class="formas-imagens imagem-passaporte"></div>
+                    <div class="imagem-vista"></div>
+                </div>
+            </div>
         </section>
 
-        <div class="categorias">
-            <a href="#" class="buscar-categorias">
-                    <img src="/assets/icone-pacotes/icone-pacotes-nacionais.svg">
-                    <h3>Pacotes Nacionais</h3>
-            </a>
-
-            <a href="#" class="buscar-categorias">
-                    <img src="/assets/icone-pacotes/icone-pacotes-internacionais.svg">
-                    <h3>Pacotes Internacionais</h3>
-            </a>
-
-            <a href="#" class="buscar-categorias">
-                    <img class="transfer" src="/assets/icone-pacotes/icone-transfer.svg">
-                    <h3>Transfer</h3>
-            </a>
-
-            <a href="#" class="buscar-categorias">
-                    <img src="/assets/icone-pacotes/icone-seguro-viagem.svg">
-                    <h3>Seguro de Viagem</h3>
-            </a>
-        </div>
-
     </main>
-    
 </body>
 </html>
