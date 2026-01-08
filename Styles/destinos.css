@@ -1,14 +1,14 @@
-.destinos-favoritos {
+.sessao-destino {
     width: 312px;
     margin: 0 auto;
 }
 
 .destino_titulo {
-    margin: 24px 0 24px;
+    margin-top: 24px;
 }
 
 .destino_descricao {
-    margin: 24px 0 24px;
+    margin-bottom: 24px;
 }
 
 .destino_imagem {
@@ -22,7 +22,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .destinos-favoritos {
+    .sessao-destino {
         width: 648px;
     }
 
@@ -30,21 +30,18 @@
         width: 648px;
         height: 452px;
     }
-
 } 
 
 @media screen and (min-width: 1024px) {
-    .destinos-favoritos {
+    .sessao-destino {
         width: 900px;
     }
 
     .destino_imagem {
-        width: 850px;
+        width: 100%;
         height: 560px;
     }
-
 } 
-
 
 @media screen and (min-width: 1440px) {
     .destinos-favoritos {
