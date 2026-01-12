@@ -1,8 +1,3 @@
-.sessao-destino {
-    width: 312px;
-    margin: 0 auto;
-}
-
 .destino_titulo {
     margin-top: 24px;
 }
@@ -22,10 +17,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .sessao-destino {
-        width: 648px;
-    }
-
     .destino_imagem {
         width: 648px;
         height: 452px;
@@ -33,10 +24,6 @@
 } 
 
 @media screen and (min-width: 1024px) {
-    .sessao-destino {
-        width: 900px;
-    }
-
     .destino_imagem {
         width: 100%;
         height: 560px;
