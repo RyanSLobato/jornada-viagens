@@ -2,13 +2,9 @@
     margin-top: 24px;
 }
 
-.destino_descricao {
-    margin-bottom: 24px;
-}
-
 .destino_imagem {
-    width: 312px;
     height: 360px;
+    margin: auto;
 }
 
 .destino_botao {
@@ -18,7 +14,6 @@
 
 @media screen and (min-width: 768px) {
     .destino_imagem {
-        width: 648px;
         height: 452px;
     }
 } 
