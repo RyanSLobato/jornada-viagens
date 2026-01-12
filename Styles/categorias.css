@@ -1,10 +1,3 @@
-.categorias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-
 .buscar {
     text-align: center;
     background-color: var(--background-secundary-color);
@@ -16,7 +9,6 @@
     padding: 10px;
 }
 
-
 .buscar_icone {
     margin: 24px 0 20px;
 }
@@ -27,14 +19,6 @@
 
 .buscar_icone-transfer {
     margin: 45px 0 28px;
-}
-
-@media screen and (min-width:768px) {
-    .categorias{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-}
 }
 
 @media screen and (min-width: 1024px) {
