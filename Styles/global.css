@@ -37,13 +37,6 @@
     margin: 0 auto;
 }
 
-.card-functions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-
 .title-default {
     font-size: 28px;
     font-weight: var(--font-weight-title);
@@ -52,10 +45,18 @@
 }
 
 .description-default {
+    margin-bottom: 24px;
     font-size: 20px;
     color: var(--text-secundary-color);
     font-weight: var(--font-weight-text);
     line-height: 1.5;
+}
+
+.card-functions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
 .section-title {
