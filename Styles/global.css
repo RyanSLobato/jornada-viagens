@@ -76,7 +76,7 @@
     width: 180px;
     height: 4px;
     background-color: var(--button-primary-color);
-    margin: 16px 0 32px 0;
+    margin: 16px 0 64px 0;
 }
 
 .button {
