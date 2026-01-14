@@ -1,0 +1,68 @@
+.contato {
+    background-color: var(--background-tertiary-color);
+}
+
+.footer-img {
+    background: url(/img/Footer/Background/Imagem-de-fundo.png) no-repeat;
+    background-size: cover;
+}
+
+.informacoes-contato {
+    text-align: center;
+    color: var(--text-tertinary-color);
+    padding: 32px 0;
+}
+
+.logo-footer {
+    margin-bottom: 16px;
+}
+
+.informacoes-funcionamento {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.informacoes-redes {
+    font-size: 16px;
+    margin: 0;
+}
+
+.redes {
+    margin-top: 32px;
+}
+
+.redes-sociais {
+    margin: 16px 4px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-img {
+        background: url(/img/Footer/Background/Imagem\ pré\ rodapé\ 1-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .informacoes-funcionamento {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-img {
+        background: url(/img/Footer/Background/Imagem\ pré\ rodapé\ 1_pc.png) no-repeat;
+        background-size: cover;
+    }
+
+    .div-teste{
+        width: auto;
+        margin: auto 120px;
+    }
+    .informacoes-contato {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .teste-header {
+        text-align: start;
+    }
+}
