@@ -26,11 +26,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .sessao-feedback-comentario {
-        width: 384px;
-        height: 206px;
-    }
-
     .sessao-feedback {
         display: flex;
         width: 1200px;
