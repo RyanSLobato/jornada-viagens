@@ -7,7 +7,7 @@
     margin-bottom: 8px;
 }
 
-.depoimentos h4 {
+.depoimentos h3 {
     font-size: 20px;
     margin-bottom: 8px;
 }
@@ -20,6 +20,10 @@
     justify-content: space-between;
 }
 
+.stars {
+    font-size: 32px;
+    color: var(--button-primary-color);
+}
 
 @media screen and (min-width: 1440px) {
     .sessao-feedback-comentario {
