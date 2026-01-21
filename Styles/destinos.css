@@ -7,6 +7,16 @@
     margin: auto;
 }
 
+.destino_imagem-tokyo {
+    background: url(../img/Mobile/Destinations/Destination-tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.destino_imagem-osaka {
+    background: url(../img/Mobile/Destinations/Destination-osaka-mobile.jpg);
+    background-size: cover;
+}
+
 .destino_botao {
     width: 312px;
     margin-bottom:40px;
@@ -15,6 +25,16 @@
 @media screen and (min-width: 768px) {
     .destino_imagem {
         height: 452px;
+    }
+
+    .destino_imagem-tokyo {
+        background: url(../img/Tablet/Destinations/Destination-tokyo-tablet.jpg);
+        background-size: cover;
+    }
+
+    .destino_imagem-osaka {
+        background: url(../img/Tablet/Destinations/Destination-osaka-tablet.jpg);
+        background-size: cover;
     }
 } 
 
@@ -36,5 +56,15 @@
     .destino_imagem {
         width: 588px;
         height: 452px;
+    }
+
+    .destino_imagem-tokyo {
+        background: url(../img/Desktop/Destinations/Destination-tokyo-desktop.jpg);
+        background-size: cover;
+    }
+
+    .destino_imagem-osaka {
+        background: url(../img/Desktop/Destinations/Destination-osaka-desktop.jpg);
+        background-size: cover;
     }
 }
