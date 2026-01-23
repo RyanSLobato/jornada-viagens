@@ -32,4 +32,8 @@
         justify-content: space-around;
         gap: 24px;
     }
+
+    .sessao-feedback-comentario {
+        margin-bottom: 104px;
+    }   
 }
