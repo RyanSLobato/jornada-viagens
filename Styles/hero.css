@@ -1,12 +1,11 @@
 .back-img {
     height: 400px;
-    width: 100%;
     background: url(../img/Mobile/Hero/Banner-homepage-mobile.svg) no-repeat;
     background-size: cover;
 }   
 
 .hero h2 {
-    padding: 88px 24px 0 ;
+    padding: 88px 24px 0;
     text-align: center;
     margin: 0;
 }
@@ -14,7 +13,6 @@
 @media screen and (min-width: 768px) {
     .back-img {
         height: 620px;
-        width: 100%;
         background: url(../img/Tablet/Hero/Banner-tablet-hero.svg) no-repeat;
         background-size: cover;
     }   
@@ -27,8 +25,6 @@
 
 @media screen and (min-width: 1024px) {
     .back-img {
-        height: 620px;
-        width: 100%;
         background: url(../img/Tablet/Hero/Banner-tablet-hero.svg) no-repeat;
         background-size: cover;
     }   
@@ -41,7 +37,6 @@
 
 @media screen and (min-width: 1440px) {
     .back-img {
-        width: 100%;
         background: url(../img/Desktop/Hero/Banner-Desktop_hero.svg) no-repeat;
         background-size: cover;
     }
@@ -52,7 +47,6 @@
 
 @media screen and (min-width: 1920px) {
     .back-img {
-        width: 100%;
         background: url(../img/Desktop/Hero/Banner-Desktop_hero.svg) no-repeat;
         background-size: cover;
     }
