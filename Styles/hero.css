@@ -11,13 +11,14 @@
 }
 
 /* Pacote-viagem */
-.pacote-viagem_img {
+
+.pacote-viagem_hero {
     height: 460px;
     background: url(../img/Desktop/Hero/ce733a209749823b882c4c676601f6b44596d80b.jpg) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    background-position: 67%;
+    background-position: 66.5%;
 }
 
 .conteudo-hero h1{
@@ -27,15 +28,10 @@
     margin: 0;
 }
 
-.conteudo-hero hr.red-line {
-    margin-bottom: 32px;
-}
-
 .conteudo-hero h3{
     color: var(--text-quinary-color);
     text-align: start;
 }
-
 
 @media screen and (min-width: 768px) {
     .back-img {
@@ -46,6 +42,24 @@
 
     .hero h2 {
         padding: 88px 60px 0;
+        font-size: 32px;
+    }
+
+
+    /* Pacote-viagem */
+
+    .pacote-viagem_hero {
+        background: url(../img/Desktop/Hero/ce733a209749823b882c4c676601f6b44596d80b.jpg) no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .conteudo-hero {
+        margin: 150px 0 0 120px;
+        width: 579px;
+    }
+
+    .conteudo-hero h3 {
         font-size: 32px;
     }
 }
@@ -60,6 +74,14 @@
         padding: 88px 96px 0 ;
         font-size: 32px;
     }
+
+    /* Pacote-viagem */
+
+    .pacote-viagem_hero {
+        background: url(../img/Desktop/Hero/ce733a209749823b882c4c676601f6b44596d80b.jpg) no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -70,6 +92,19 @@
     .hero h2 {
         padding: 120px 120px 0;
     }
+
+    /* Pacote-viagem */
+
+    .pacote-viagem_hero {
+        background: url(../img/Desktop/Hero/ce733a209749823b882c4c676601f6b44596d80b.jpg) no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+    }
+
+    .conteudo-hero {
+        margin: 10px 0 0 120px;
+        width: 579px;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -79,5 +114,18 @@
     }
     .hero h2 {
         padding: 120px 160px 0;
+    }
+
+    /* Pacote-viagem */
+
+    .pacote-viagem_hero {
+        background: url(../img/Desktop/Hero/ce733a209749823b882c4c676601f6b44596d80b.jpg) no-repeat;
+        background-size: cover;
+        background-position: center 60%;
+    }
+
+    .conteudo-hero {
+        margin: 10px 0 0 120px;
+        width: 900px;
     }
 }

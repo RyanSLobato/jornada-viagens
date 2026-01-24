@@ -35,6 +35,13 @@
     margin: 16px 4px 0;
 }
 
+/* Pacotes de viagens */
+
+.pacote-viagens_footer .footer-img {
+    background: url(/img/Footer/Background/Mobile-Pacote-viagens/Imagem\ pré\ rodapé\ 1.png) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .footer-img {
         background: url(/img/Footer/Background/Imagem\ pré\ rodapé\ 1-tablet.png) no-repeat;
@@ -43,6 +50,14 @@
 
     .informacoes-funcionamento {
         font-size: 20px;
+    }
+
+    /* Pacotes de viagens */
+
+    .pacote-viagens_footer .footer-img {
+        background: url(../img/Footer/Background/Tablet-Pacote-viagens/Imagem\ pré\ rodapé\ 1.png) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -64,5 +79,16 @@
 
     .teste-header {
         text-align: start;
+    }
+
+    /* Pacotes de viagens */
+
+    .pacote-viagens_footer .footer-img {
+        background: url(../img/Footer/Background/Desktop-Pacote-viagens/Imagem\ pré\ rodapé-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .loucura {
+        font-size: 31px;
     }
 }

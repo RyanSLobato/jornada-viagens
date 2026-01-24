@@ -26,6 +26,28 @@
     background: url(../img/Mobile/Payments-Conditions/Montagem\ japão\ 3.svg) no-repeat;
 }
 
+/* Pacote viagens */
+
+.pacote-viagens_valor {
+    font-size: 40px;
+}
+
+.pacote-viagens_main .imagem-malas {
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Pacote-Viajens/Construção1-mobile.png) no-repeat;
+}
+
+.pacote-viagens_main .imagem-passaporte {
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Pacote-Viajens/NoiteCidade2-mobile.png) no-repeat;
+}
+
+.pacote-viagens_main .imagem-vista {
+    grid-column: span 2;
+    background-size: cover;
+    background: url(../img/Mobile/Payments-Conditions/Pacote-Viajens/image3-mobile.jpg) no-repeat;
+}
+
 @media screen and (min-width: 768px) {
     .imagem-malas {
         background: url(../img/Tablet/Payment/Montagem\ japão\ 1.svg) no-repeat;
@@ -37,6 +59,24 @@
 
     .imagem-vista {
         background: url(../img/Tablet/Payment/Montagem\ japão\ 3.svg) no-repeat;
+    }
+
+    /* Pacote viagens */
+
+    .button-pacotes {
+        display: none;
+    }
+
+    .pacote-viagens_main .imagem-malas {
+        background: url(../img/Tablet/Payment/Pacote-viagens/Construção1-tablet.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-passaporte {
+        background: url(../img/Tablet/Payment/Pacote-viagens/NoiteCidade2-tablet.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-vista {
+        background: url(../img/Tablet/Payment/Pacote-viagens/Montagem\ japão\ 3.png) no-repeat;
     }
 
 }
@@ -79,6 +119,26 @@
 
     .imagem-vista {
         background: url(../img/Desktop/Payments/Montagem\ japão\ 3.svg) no-repeat;
+    }
+
+
+    /* Pacote viagens */
+
+    .pacote-viagens_main .info-condicoes {
+        display: flex;
+        align-items: center;
+    }
+
+    .pacote-viagens_main .imagem-malas {
+        background: url(../img/Desktop/Payments/Pacote-viagens/Construção1.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-passaporte {
+        background: url(../img/Desktop/Payments/Pacote-viagens/NoiteCidade2.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-vista {
+        background: url(../img/Desktop/Payments/Pacote-viagens/Montagem\ japão\ 3.png) no-repeat;
     }
 
 }
