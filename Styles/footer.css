@@ -87,4 +87,8 @@
         background: url(../img/Footer/Background/Desktop-Pacote-viagens/Imagem\ pré\ rodapé-desktop.png) no-repeat;
         background-size: cover;
     }
+
+    .loucura {
+        font-size: 31px;
+    }
 }
