@@ -28,10 +28,6 @@
     margin: 0;
 }
 
-.conteudo-hero hr.red-line {
-    margin-bottom: 32px;
-}
-
 .conteudo-hero h3{
     color: var(--text-quinary-color);
     text-align: start;
