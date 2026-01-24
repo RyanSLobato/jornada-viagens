@@ -48,6 +48,13 @@ input[type="checkbox"]:checked ~ nav {
     text-decoration: none;
 }
 
+.navegacao-menu__lista__list-links li a.pagina-atual{
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3.5px;
+}
+
+
 @media (min-width: 768px) {
     .navegacao-menu {
         margin: 0;

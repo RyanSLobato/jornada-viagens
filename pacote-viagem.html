@@ -2,16 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="./favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.svg">
     <linK rel="stylesheet" href="./Styles/style.css">
-    <meta name="description" content="Jornada viagens, uma agência apaixonada por criar viagens inesquecíveis!">
-    <title>Jornada Viagens</title>
+    <meta name="description" content="Jornada viagens, uma agência com os melhores pacotes para suas viagens serem inesquecíveis!">
+    <title>Jornada Viagens - Pacotes</title>
 </head>
 <body>
 
     <header class="cabecalho">
-        <a class="logo" href="#" title="Voltar para a página inicial">
+        <a class="logo" href="index.html" title="Voltar para a página inicial">
             <img class="logo__img-mobile"src="./assets/Logo/bussola-logo-jornada-viagens.svg" alt="Bússola do logo Jornada Viagens na cor branca">
             <img class="logo__img-desktop"src="./assets/Logo/Logo-preta.svg" alt="Bússola do logo Jornada Viagens na cor branca">
         </a>
@@ -23,7 +23,7 @@
             <nav class="navegacao-menu__lista">
                 <ul class="navegacao-menu__lista__list-links">
                     <li><a href="#" title="Acessar Blog">Blog</a></li>
-                    <li><a href="pacote-viagem.html" title="Acessar Pacote de Viagens">Pacotes de Viagem</a></li>
+                    <li><a class="pagina-atual" href="pacote-viagem.html" title="Acessar Pacote de Viagens">Pacotes de Viagem</a></li>
                     <li><a href="#" title="Acessar Página de Contato">Contato</a></li>
                 </ul>
             </nav>
@@ -31,103 +31,20 @@
     </header>
 
     <main>
-       
-        <section class="hero">
-            <div class="back-img"></div>
-            <h2 class="description-default">Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!</h2>
-        </section>
 
-        <section class="ofertas">
-            <div class="section-title">
-                <h2>Ofertas da Semana</h2>
-                <hr class="red-line">
-            </div>    
-            <div class="card-de-ofertas card-functions">
-                <article class="card card-japao">
-                    <header>
-                        <p class="description-default">HOTEL+AÉREO</p>
-                    </header>
-                    <section class="title-default">
-                        <h3>Japão</h3>
-                        <span>R$ 4000</span>
-                    </section> 
-                    <footer>
-                        <a href="#" class="button" title="Ver mais detalhes da oferta semanal para Japão">Ver detalhes</a>
-                    </footer>
-                </article>
-
-                <article class="card card-san-andreas"> 
-                    <header>
-                        <p class="description-default">HOTEL+AÉREO</p>
-                    </header>
-                    <section class="title-default">
-                        <h3>San Andreas</h3>
-                        <span>R$ 3000</span>
-                    </section>
-                    <footer>
-                        <a href="#" class="button" title="Ver mais detalhes da oferta semanal para San Andreas">Ver detalhes</a>
-                    </footer>
-                </article>
-
-                <article class="card card-paraiba"> 
-                    <header>
-                        <p class="description-default">HOTEL+AÉREO</p>
-                    </header>
-                    <section class="title-default">
-                        <h3>Paraíba</h3>
-                        <span>R$ 1200</span>
-                    </section>
-                    <footer>
-                        <a href="#" class="button" title="Ver mais detalhes da oferta semanal para Paraíba">Ver detalhes</a>
-                    </footer>
-                </article>
-
-                <article class="card card-manaus"> 
-                    <header>
-                        <p class="description-default">HOTEL+AÉREO</p>
-                    </header>
-                    <section class="title-default">
-                        <h3>Manaus</h3>
-                        <span>R$ 1600</span>
-                    </section>
-                    <footer>
-                        <a href="#" class="button" title="Ver mais detalhes da oferta semanal para Manaus">Ver detalhes</a>
-                    </footer>
-                </article>
+        <section class="hero pacote-viagem">
+            <div class="back-img pacote-viagem_img">
+                <div class="conteudo-hero screen-size">
+                    <h1 class="title-default">Conheça o Japão!</h1>
+                    <hr class="red-line">
+                    <h3 class="description-default">A Jornada possui o pacote perfeito para seu estilo e orçamento! Conheça as belas paisagens e a  cultura milenar deste belo país!</h3>
+                </div>
             </div>
         </section>
-
-        <section class="sessao-categorias">
-            <div class="section-title">
-                <h2>Busque por Categoria</h2>
-                <hr class="red-line">
-            </div>
-            <div class="categorias card-functions">
-                <a href="#" class="buscar" title="Filtrar por pacotes nacionais">
-                    <img class="buscar_icone buscar_icone-nacional"src="/assets/icone-pacotes/icone-pacotes-nacionais.svg" alt="Icone categoria pacotes nacionais">
-                    <h3 class="title-default buscar_pacote">Pacotes Nacionais</h3>
-                </a>
-
-                <a href="#" class="buscar" title="Filtrar por pacotes internacionais">
-                    <img class="buscar_icone" src="/assets/icone-pacotes/icone-pacotes-internacionais.svg" alt="Icone categoria pacotes internacionais">
-                    <h3 class="title-default">Pacotes Internacionais</h3>
-                </a>
-
-                <a href="#" class="buscar" title="Filtrar por pacotes transfer">
-                    <img class="buscar_icone buscar_icone-transfer" src="/assets/icone-pacotes/icone-transfer.svg" alt="Icone categoria pacotes transfer">
-                    <h3 class="title-default">Transfer</h3>
-                </a>
-
-                <a href="#" class="buscar" title="Filtrar por pacotes transfer">
-                    <img class="buscar_icone"src="/assets/icone-pacotes/icone-seguro-viagem.svg" alt="Icon categoria pacotes seguro de viagem">
-                    <h3 class="title-default">Seguro Viagem</h3>
-                </a>
-            </div>
-        </section>  
 
         <section class="sessao-destino">
             <div class="titulo-destino section-title">
-                <h2>Destinos Populares</h2>
+                <h2>Destinos da Excursão</h2>
                 <hr class="red-line">
             </div>
             <div class="destinos-favoritos screen-size">
@@ -157,18 +74,22 @@
                 </article>          
             </div>
         </section>
-        
+
         <section class="formas-de-pagamento">
             <div class="titulo-condicoes section-title">
-                <h2>Condições de Pagamento</h2>
+                <h2>Pagamento</h2>
                 <hr class="red-line">
             </div>
             <div class="divisao screen-size">
                 <div class="info-condicoes">
                     <h3 class="title-default condicoes_titulo">
-                        Parcelamento em até 12x!
+                        R$4000
+                    </h3>
+                    <h3 class="title-default condicoes_titulo">
+                        Em até 12x!
                     </h3>
                     <p class="description-default condicoes_descricao">Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10% de desconto! </p>
+                    <a class="button destino_botao" href="#" title="Ver detalhes do destino popular: Osaka">Ver detalhes</a>
                 </div >
                 <div class="conteudo-imagem">
                     <div class="formas-imagens imagem-malas"></div>
@@ -240,7 +161,7 @@
                 </article>
             </div>
         </section>
-    
+
     </main>
 
     <footer class="contato">
@@ -263,5 +184,6 @@
             </article>
         </div>
     </footer>
+    
 </body>
 </html>
