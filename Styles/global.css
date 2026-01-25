@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --background-primary-color: #fff ;
@@ -29,7 +24,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 
 .screen-size {

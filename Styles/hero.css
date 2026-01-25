@@ -4,7 +4,7 @@
     background-size: cover;
 }   
 
-.hero h2 {
+.hero .hero-main {
     padding: 88px 24px 0;
     text-align: center;
     margin: 0;
@@ -28,7 +28,7 @@
     margin: 0;
 }
 
-.conteudo-hero h3{
+.conteudo-hero h2{
     color: var(--text-quinary-color);
     text-align: start;
 }
@@ -40,7 +40,7 @@
         background-size: cover;
     }   
 
-    .hero h2 {
+    .hero .hero-main2 {
         padding: 88px 60px 0;
         font-size: 32px;
     }
@@ -70,7 +70,7 @@
         background-size: cover;
     }   
 
-    .hero h2 {
+    .hero .hero-main {
         padding: 88px 96px 0 ;
         font-size: 32px;
     }
@@ -89,7 +89,7 @@
         background: url(../img/Desktop/Hero/Banner-Desktop_hero.svg) no-repeat;
         background-size: cover;
     }
-    .hero h2 {
+    .hero .hero-main {
         padding: 120px 120px 0;
     }
 
@@ -112,7 +112,7 @@
         background: url(../img/Desktop/Hero/Banner-Desktop_hero.svg) no-repeat;
         background-size: cover;
     }
-    .hero h2 {
+    .hero .hero-main {
         padding: 120px 160px 0;
     }
 
