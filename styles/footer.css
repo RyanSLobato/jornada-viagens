@@ -42,6 +42,13 @@
     background-size: cover;
 }
 
+/* Entrar em contato */
+
+.entrar-em-contato_footer .footer-img{
+    background: url(../img/Mobile/Footer/Pagina-contato/Footer-contato_mobile.png) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .footer-img {
         background: url(/img/Tablet/Footer/Pagina-inicial/Paisagem-cidade_tablet.png) no-repeat;
@@ -58,6 +65,13 @@
         background: url(../img/Tablet/Footer/Pacote-viagens/caminhando-com-quimono_tablet.png) no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+    /* Entrar em contato */
+
+    .entrar-em-contato_footer .footer-img {
+        background: url(../img/Tablet/Footer/Pagina-contato/Footer-contato_tablet.png) no-repeat;
+        background-size: cover;
     }
 }
 
@@ -88,4 +102,10 @@
         background-size: cover;
     }
 
+    /* Entrar em contato */
+
+    .entrar-em-contato_footer .footer-img {
+        background: url(../img/Desktop/Footer/Pagina-contato/Footer-contato_desktop.png) no-repeat;
+        background-size: cover;
+    }
 }

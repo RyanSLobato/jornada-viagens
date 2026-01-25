@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.svg">
+    <linK rel="stylesheet" href="./styles/style.css">
+    <meta name="description" content="Jornada viagens, uma agência com os melhores pacotes para suas viagens serem inesquecíveis!">
+    <title>Jornada Viagens - Entre em contato</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a class="logo" href="index.html" title="Voltar para a página inicial">
+            <img class="logo__img-mobile"src="./assets/Logo/bussola-logo-jornada-viagens.svg" alt="Bússola do logo Jornada Viagens na cor branca">
+            <img class="logo__img-desktop"src="./assets/Logo/Logo-preta.svg" alt="Bússola do logo Jornada Viagens na cor branca">
+        </a>
+        <div class="navegacao-menu">
+            <label for="menu">
+                <img src="./assets/Menu/menu-hamburger.svg" alt="Menu hamburguer">
+            </label>
+            <input id="menu" type="checkbox" hidden>
+            <nav class="navegacao-menu__lista">
+                <ul class="navegacao-menu__lista__list-links">
+                    <li><a href="#" title="Acessar Blog">Blog</a></li>
+                    <li><a href="pacote-viagem.html" title="Acessar Pacote de Viagens">Pacotes de Viagem</a></li>
+                    <li><a class="pagina-atual" href="contato.html" title="Acessar Página de Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="entrar-em-contato_hero pacote-viagem_hero back-img">
+                <div class="conteudo-hero screen-size">
+                    <h1 class="title-default">Entre em contato!</h1>
+                    <hr class="red-line">
+                    <h2 class="description-default">Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario screen-size description-default">
+            <div class="section-title">
+                <h2 class="quebra-de-linha">Preencha o formulário:</h2>
+                <hr class="red-line">
+            </div>
+            <div>
+                <p class="sobre-formulario">Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <div class="formulario_grid screen-size">
+                        
+                        <div class="input_nome formulario_input">
+                            <input placeholder=" " id="Name" type="text" name="userName" required>
+                            <label class="label_position" for="Name">Seu nome</label>
+                        </div>
+
+                        <div class="input_telefone formulario_input">
+                            <input placeholder=" " id="PhoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}">
+                            <label class="label_position"  for="PhoneNumber">Telefone</label>
+                        </div>
+
+                        <div class="input_email formulario_input">
+                            <input placeholder=" " id="emailuser" type="email" name="userEmail" required>    
+                            <label class="label_position" for="emailuser">Email</label>
+                        </div>
+
+                        <div class="input_assunto formulario_input">
+                            <input placeholder=" " id="Assunto" type="text" name="userAssunto">
+                            <label class="label_position"  for="Assunto">Assunto</label>
+                        </div>
+
+                        <div class="input_desc-assunto formulario_input">
+                            <textarea placeholder=" " id="Descreva-assunto" name="userAssuntoDesc"></textarea>
+                            <label for="Descreva-assunto">Descreva sobre</label>
+                        </div>
+                    </div>
+                    
+                    <div class="botao-envio_contato">
+                        <button class="botao-envio_contato button">Enviar!</button>
+                    </div>                    
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="entrar-em-contato_footer pacote-viagens_footer contato">
+        <div class="back-img footer-img"></div>
+        <div class="screen-size div-teste">
+            <article class="informacoes-contato">
+                <header class="teste-header">
+                    <img class="logo-footer" src="img/Geral/Icones-redes-sociais/Logo-branco_Jornada-viagens.png" alt="Logo com uma bússola branca e ao lado escrito Jornada Viagens">
+                    <p class="description-default informacoes-funcionamento">Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                    <p class="description-default informacoes-funcionamento">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+                </header>
+                <footer class="redes">
+                    <p class="description-default informacoes-funcionamento informacoes-redes">Acesse nossas redes:</p>
+                    <div>
+                        <a href="#" title="Entrar em contato pelo Whatsapp"><img class="redes-sociais" src="img/Geral/Icones-redes-sociais/Whatsapp.png" alt="Icone do whatsapp"></a>
+                        <a href="#" title="Entrar em contato pelo Instagram"><img class="redes-sociais" src="img/Geral/Icones-redes-sociais/Instagram.png" alt="Icone do Instagram"></a> 
+                        <a href="#" title="Entrar em contato pelo Twitter"><img class="redes-sociais" src="img/Geral/Icones-redes-sociais/Twiter.png" alt="Icone do Twitter"></a>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </footer>
+    
+</body>
+</html>
