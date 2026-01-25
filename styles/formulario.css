@@ -9,26 +9,22 @@
     color: var(--text-secondary-color);
 }
 
-.teste2 {
+.formulario_input {
     margin-bottom: 64px;
     position: relative;
 }
+
+.formulario_input label{
+    position: absolute;
+    left: 5px;
+}
+
 
 input {
     padding: 11px 0 11px 3px ;
     width: 100%;
     border-bottom: 2px solid black
 }
-
-input:hover {
-    border-bottom: 2px solid var(--button-primary-color)
-}
-
-label:hover + input{
-    border-bottom: 2px solid var(--button-primary-color)
-}
-
-
 
 textarea {
     margin-top: 35px;
@@ -38,18 +34,33 @@ textarea {
     border-radius: 8px;
 }
 
+.input_nome {
+    grid-column: span 2;
+}
+
+.input_assunto {
+    grid-column: span 2;
+}
+
+.input_desc-assunto {
+    grid-column: span 2;
+}
+
+.botao-envio_contato {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+input:hover {
+    border-bottom: 2px solid var(--button-primary-color)
+}
+
 textarea:hover {
     border: 2px solid var(--button-primary-color)
 }
 
-.teste2 label{
-    position: absolute;
-    left: 5px;
-}
-
 input:focus {
     outline: none;
-    bottom: 23px;
     border: 2px solid var(--button-primary-color);
     border-radius: 8px;
 }
@@ -79,30 +90,14 @@ input:not(:placeholder-shown) + .label_position {
 
 textarea:not(:placeholder-shown){
     outline: none;
-    bottom: 23px;
     border: 2px solid var(--button-primary-color);
     border-radius: 8px;
 }
 
 textarea:focus {
     outline: none;
-    bottom: 23px;
     border: 2px solid var(--button-primary-color);
     border-radius: 8px;
-}
-
-
-.nome1 {
-    grid-column: span 2;
-}
- 
-
-.assunto1 {
-    grid-column: span 2;
-}
-
-.desc-assunto {
-    grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
@@ -112,6 +107,9 @@ textarea:focus {
 }
 
 @media screen and (min-width:1440px) {
+    .formulario{
+        width: 1200px;
+    }
     .formulario_grid {
         display: grid;
         grid-template-columns: 1fr 1fr;

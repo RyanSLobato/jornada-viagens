@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,37 +46,45 @@
                 <h2 class="quebra-de-linha">Preencha o formulário:</h2>
                 <hr class="red-line">
             </div>
-            <article>
-                <header>
-                    <p class="sobre-formulario">Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
-                </header>
-                <section>
-                    <form action="#" method="get">
-                        <div class="formulario_grid">
-                            <div class="nome1 teste2">
-                                <input placeholder="" id="Name" type="text" name="userName" required>
-                                <label class="label_position" for="Name">Seu nome</label>
-                            </div>
-                            <div class="telefone1 teste2">
-                                <input placeholder="" id="PhoneNumber" type="number" name="userPhoneNumber" required>
-                                <label class="label_position"  for="PhoneNumber">Telefone</label>
-                            </div>
-                            <div class="email1 teste2">
-                                <input placeholder="" id="emailuser" type="email" name="userEmail" required>
-                                <label class="label_position" for="emailuser">Email</label>
-                            </div>
-                            <div class="assunto1 teste2">
-                                <input placeholder="" id="Assunto" type="text" name="userAssunto" required>
-                                <label class="label_position"  for="Assunto">Assunto</label>
-                            </div>
-                            <div class="desc-assunto teste2">
-                                <textarea placeholder="" id="Descreva-assunto" name="userAssuntoDesc"></textarea>
-                                <label for="Descreva-assunto">Descreva sobre</label>
-                            </div>
+            <div>
+                <p class="sobre-formulario">Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <div class="formulario_grid screen-size">
+                        
+                        <div class="input_nome formulario_input">
+                            <input placeholder=" " id="Name" type="text" name="userName" required>
+                            <label class="label_position" for="Name">Seu nome</label>
                         </div>
-                    </form>
-                </section>
-            </article>
+
+                        <div class="input_telefone formulario_input">
+                            <input placeholder=" " id="PhoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}">
+                            <label class="label_position"  for="PhoneNumber">Telefone</label>
+                        </div>
+
+                        <div class="input_email formulario_input">
+                            <input placeholder=" " id="emailuser" type="email" name="userEmail" required>    
+                            <label class="label_position" for="emailuser">Email</label>
+                        </div>
+
+                        <div class="input_assunto formulario_input">
+                            <input placeholder=" " id="Assunto" type="text" name="userAssunto">
+                            <label class="label_position"  for="Assunto">Assunto</label>
+                        </div>
+
+                        <div class="input_desc-assunto formulario_input">
+                            <textarea placeholder=" " id="Descreva-assunto" name="userAssuntoDesc"></textarea>
+                            <label for="Descreva-assunto">Descreva sobre</label>
+                        </div>
+                    </div>
+                    
+                    <div class="botao-envio_contato">
+                        <button class="botao-envio_contato button">Enviar!</button>
+                    </div>                    
+                </form>
+            </div>
+        </section>
 
     </main>
     
