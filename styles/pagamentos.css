@@ -1,0 +1,144 @@
+.condicoes_titulo {
+    margin-bottom: 24px;
+}
+
+.conteudo-imagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    width: 100%;
+}
+
+.imagem-malas {
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pagina-incial/malas-viagem_mobile.png) no-repeat;
+}
+
+.imagem-passaporte {
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pagina-incial/passaportes_mobile.png) no-repeat;
+}
+
+.imagem-vista {
+    grid-column: span 2;
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pagina-incial/paisagem-pessoas_mobile.png) no-repeat;
+}
+
+/* Pacote viagens */
+
+.pacote-viagens_valor {
+    font-size: 40px;
+}
+
+.pacote-viagens_main .imagem-malas {
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pacote-viagens/construcao-japao_mobile.png) no-repeat;
+}
+
+.pacote-viagens_main .imagem-passaporte {
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pacote-viagens/cidade-a-noite_mobile.png) no-repeat;
+}
+
+.pacote-viagens_main .imagem-vista {
+    grid-column: span 2;
+    background-size: cover;
+    background: url(../img/Mobile/Condicoes-de-pagamento/Pacote-viagens/caminho-tori_mobile.png) no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .imagem-malas {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pagina-incial/malas-viagem_tablet.png) no-repeat;
+    }
+
+    .imagem-passaporte {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pagina-incial/passaportes_tablet.png) no-repeat;
+    }
+
+    .imagem-vista {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pagina-incial/paisagem-pessoas_tablet.png) no-repeat;
+    }
+
+    /* Pacote viagens */
+
+    .button-pacotes {
+        display: none;
+    }
+
+    .pacote-viagens_main .imagem-malas {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pacote-viagens/construcao-japao_tablet.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-passaporte {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pacote-viagens/cidade-a-noite_tablet.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-vista {
+        background: url(../img/Tablet/Condicao-de-pagamento/Pacote-viagens/caminho-tori_tablet.png) no-repeat;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .divisao {
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .divisao {
+        width: 1197px;
+    }
+
+    .divisao {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .condicoes_titulo {
+        width: 285px;
+    }
+
+    .conteudo-imagem {
+        width: 790px;
+    }
+
+    .condicoes_descricao {
+        width: 360px;
+    }
+
+    .imagem-malas {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pagina-inicial/malas-viagem_desktop.png) no-repeat;
+    }
+
+    .imagem-passaporte {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pagina-inicial/passaportes_desktop.png) no-repeat;
+    }
+
+    .imagem-vista {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pagina-inicial/paisagem-pessoas_desktop.png) no-repeat;
+    }
+
+
+    /* Pacote viagens */
+
+    .pacote-viagens_main .info-condicoes {
+        display: flex;
+        align-items: center;
+    }
+
+    .pacote-viagens_main .imagem-malas {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pacote-viagens/construcao-japao_desktop.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-passaporte {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pacote-viagens/cidade-a-noite_desktop.png) no-repeat;
+    }
+
+    .pacote-viagens_main .imagem-vista {
+        background: url(../img/Desktop/Condicoes-de-pagamento/Pacote-viagens/caminho-tori_desktop.png) no-repeat;
+    }
+
+}

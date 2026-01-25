@@ -1,0 +1,91 @@
+.contato {
+    background-color: var(--background-tertiary-color);
+}
+
+.footer-img {
+    background: url(/img/Mobile/Footer/Pagina-inicial/Paisagem-cidade_mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.informacoes-contato {
+    text-align: center;
+    color: var(--text-tertinary-color);
+    padding: 32px 0;
+}
+
+.logo-footer {
+    margin-bottom: 16px;
+}
+
+.informacoes-funcionamento {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.informacoes-redes {
+    font-size: 16px;
+    margin: 0;
+}
+
+.redes {
+    margin-top: 32px;
+}
+
+.redes-sociais {
+    margin: 16px 4px 0;
+}
+
+/* Pacotes de viagens */
+
+.pacote-viagens_footer .footer-img {
+    background: url(/img/Mobile/Footer/Pacotes-viagens/caminhando-com-quimono_mobile.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-img {
+        background: url(/img/Tablet/Footer/Pagina-inicial/Paisagem-cidade_tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .informacoes-funcionamento {
+        font-size: 20px;
+    }
+
+    /* Pacotes de viagens */
+
+    .pacote-viagens_footer .footer-img {
+        background: url(../img/Tablet/Footer/Pacote-viagens/caminhando-com-quimono_tablet.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-img {
+        background: url(/img/Desktop/Footer/Pagina-inicial/Paisagem-cidade_desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .div-teste{
+        width: auto;
+        margin: auto 120px;
+    }
+    .informacoes-contato {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .teste-header {
+        text-align: start;
+    }
+
+    /* Pacotes de viagens */
+
+    .pacote-viagens_footer .footer-img {
+        background: url(../img/Desktop/Footer/Pacote-viagens/caminhando-com-quimono_desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+}

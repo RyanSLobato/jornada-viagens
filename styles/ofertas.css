@@ -1,0 +1,76 @@
+.card {
+    background-color: var(--background-tertiary-color);
+    width: 312px;
+    height: 288px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-japao {
+    background: url(../img/Geral/Card-de-ofertas/card-promo-japao.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card-san-andreas {
+    background: url(../img/Geral/Card-de-ofertas/Card-promo-san-andreas.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card-paraiba {
+    background: url(../img/Geral/Card-de-ofertas/Card-promo-paraiba.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card-manaus {
+    background: url(../img/Geral/Card-de-ofertas/Card-promo-manaus.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.card header p{
+    color: var(--text-quinary-color);
+    padding: 24px 24px 8px;
+    margin: 0;
+} 
+
+.card section {
+    color: var(--text-quinary-color);
+}
+
+.card section h3 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.card section span {
+    font-size: 32px;
+}
+
+@media screen and (min-width:1024px) {
+    .card {
+        width: 445px;
+        height: 308px;
+    }
+
+    .card section h3 {
+        font-size: 48px;
+    }
+
+    .card section span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .card-de-ofertas{
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
