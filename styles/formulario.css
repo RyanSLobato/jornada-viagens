@@ -1,0 +1,120 @@
+.formulario .red-line {
+    margin-bottom: 57px
+}
+
+.sobre-formulario {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 56px;
+    color: var(--text-secondary-color);
+}
+
+.teste2 {
+    margin-bottom: 64px;
+    position: relative;
+}
+
+input {
+    padding: 11px 0 11px 3px ;
+    width: 100%;
+    border-bottom: 2px solid black
+}
+
+input:hover {
+    border-bottom: 2px solid var(--button-primary-color)
+}
+
+label:hover + input{
+    border-bottom: 2px solid var(--button-primary-color)
+}
+
+
+
+textarea {
+    margin-top: 35px;
+    padding: 5px 7px 50px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+textarea:hover {
+    border: 2px solid var(--button-primary-color)
+}
+
+.teste2 label{
+    position: absolute;
+    left: 5px;
+}
+
+input:focus {
+    outline: none;
+    bottom: 23px;
+    border: 2px solid var(--button-primary-color);
+    border-radius: 8px;
+}
+
+input:focus + .label_position {
+    bottom: 30px;
+    background-color: white;
+    left: 10px;
+    z-index: 1;
+    padding: 0 2px;
+}
+
+input:not(:placeholder-shown){
+    outline: none;
+    bottom: 23px;
+    border: 2px solid var(--button-primary-color);
+    border-radius: 8px;
+}
+
+input:not(:placeholder-shown) + .label_position {
+    bottom: 30px;
+    background-color: white;
+    left: 10px;
+    z-index: 1;
+    padding: 0 2px;
+}
+
+textarea:not(:placeholder-shown){
+    outline: none;
+    bottom: 23px;
+    border: 2px solid var(--button-primary-color);
+    border-radius: 8px;
+}
+
+textarea:focus {
+    outline: none;
+    bottom: 23px;
+    border: 2px solid var(--button-primary-color);
+    border-radius: 8px;
+}
+
+
+.nome1 {
+    grid-column: span 2;
+}
+ 
+
+.assunto1 {
+    grid-column: span 2;
+}
+
+.desc-assunto {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-formulario {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .formulario_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px;
+    }
+}
