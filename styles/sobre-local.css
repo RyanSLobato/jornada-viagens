@@ -1,0 +1,58 @@
+.chegada-tokyo_img {
+    background: url(/img/Mobile/Sobre-local/Tokyo-chegada_mobile.png) no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+
+.acomodacao_img {
+    background: url(/img/Mobile/Sobre-local/Acomodacao-cidade-noturna_mobile.png) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.block-space {
+    margin-bottom: 32px;
+}
+
+.acomodacao figcaption {
+    margin-top: 10px;
+}
+ 
+@media screen and (min-width: 768px) {
+    .chegada-tokyo {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    .chegada-tokyo_img {
+        background: url(/img/Tablet/Sobre-local/Tokyo-chegada_tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .acomodacao_img {
+        background: url(/img/Tablet/Sobre-local/Acomodacao-cidade-noturna_tablet.png) no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .local {
+        width: 1200px;
+    }
+
+    .chegada-tokyo_img {
+        background: url(/img/Desktop/Sobre-local/Tokyo-chegada_desktop.png) no-repeat;
+        background-size: cover;
+        height: 360px;
+        width: 100%;
+    }
+
+    .acomodacao_img {
+        background: url(/img/Desktop/Sobre-local/Acomodacao-cidade-noturna_desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+}
