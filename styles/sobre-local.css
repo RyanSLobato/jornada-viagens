@@ -1,4 +1,8 @@
-.chegada-tokyo_img {
+.Sobre-local .description-default {
+    margin-bottom: 32px;
+}
+
+.chegada-local_img {
     background: url(/img/Mobile/Sobre-local/Tokyo-chegada_mobile.png) no-repeat;
     background-size: cover;
     height: 360px;
@@ -19,6 +23,20 @@
 .acomodacao figcaption {
     margin-top: 10px;
 }
+
+.suguestao-local {
+    margin-bottom: 104px;
+}
+
+.destino_imagem-hiroshima {
+    background: url(../img/Mobile/Destinos/Destinos-hiroshima_mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.destino_imagem-kyoto {
+    background: url(../img/Mobile/Destinos/Destinos-kyoto_mobile.png) no-repeat;
+    background-size: cover;
+}
  
 @media screen and (min-width: 768px) {
     .chegada-tokyo {
@@ -26,7 +44,16 @@
         column-gap: 24px;
     }
 
-    .chegada-tokyo_img {
+    .chegada-local {
+        display: flex;
+        gap: 24px;
+    }
+
+    .chegada-local .description-default {
+        width: 312px;
+    }
+
+    .chegada-local_img {
         background: url(/img/Tablet/Sobre-local/Tokyo-chegada_tablet.png) no-repeat;
         background-size: cover;
     }
@@ -35,15 +62,35 @@
         background: url(/img/Tablet/Sobre-local/Acomodacao-cidade-noturna_tablet.png) no-repeat;
         background-size: cover;
     }
+
+    .destino_imagem-hiroshima {
+        background: url(../img/Tablet/Destinos/Destino-hiroshima_tablet.png);
+        background-size: cover;
+    }
+
+    .destino_imagem-kyoto {
+        background: url(../img/Tablet/Destinos/Destino-kyoto_tablet.png);
+        background-size: cover;
+    }
     
 }
 
+@media screen and (min-width: 1024px) {
+    .chegada-local .description-default {
+        width: auto;
+    }
+}
+
 @media screen and (min-width: 1440px) {
+    .Sobre-local .description-default {
+        margin-bottom: 48px;
+    }
+
     .local {
         width: 1200px;
     }
 
-    .chegada-tokyo_img {
+    .chegada-local_img {
         background: url(/img/Desktop/Sobre-local/Tokyo-chegada_desktop.png) no-repeat;
         background-size: cover;
         height: 360px;
@@ -55,4 +102,22 @@
         background-size: cover;
     }
 
+    .destino_imagem-hiroshima {
+        background: url(../img/Desktop/Destinos/Destinos-hiroshima_desktop.png);
+        background-size: cover;
+    }
+
+    .destino_imagem-kyoto {
+        background: url(../img/Desktop/Destinos/Destinos-kyoto_desktop.png);
+        background-size: cover;
+    }
+
+    .Blog-jornada .destino_imagem {
+        width: 384px;
+        height: 300px;
+    }
+
+    .Blog-jornada .destinos-favoritos {
+        columns: 24px;
+    }
 }
