@@ -9,6 +9,10 @@
     padding: 10px;
 }
 
+
+.buscar:hover{
+    background-color: var(--background-quaternary-color);
+}
 .buscar_icone {
     margin: 24px 0 20px;
 }
