@@ -14,7 +14,7 @@
 
 .pacote-viagem_hero {
     height: 460px;
-    background: url(../img/Mobile/Hero/Pacotes-viagens/Banner-pacotes_mobile.jpg) no-repeat;
+    background: url(../img/Mobile/Hero/Pacotes-viagens/Banner-pacotes_mobile.png) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -40,14 +40,14 @@
 /* Entrar em contato */
 
 .entrar-em-contato_hero {
-    background: url(../img/Mobile/Hero/Pagina-contato/Banner-contato_mobile.jpg) no-repeat;
+    background: url(../img/Mobile/Hero/Pagina-contato/Banner-contato_mobile.png) no-repeat;
     background-size: cover;
 }
 
 /* Blogpost */
 
 .blogpost_hero {
-    background: url(../img/Mobile/Hero/Pagina-blogpost/Banner-blogpost_mobile.jpg) no-repeat;
+    background: url(../img/Mobile/Hero/Pagina-blogpost/Banner-blogpost_mobile.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
